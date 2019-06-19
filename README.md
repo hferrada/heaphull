@@ -2,7 +2,7 @@
 This code computes the convex hull in 2D
 
 # Authors
-Hector Ferrada, Cristobal Navarro and Nancy Hitschfeld {hferrada@dcc.uchile.cl, cnavarro@inf.uach.cl, nancy@dcc.uchile.cl}
+Hector Ferrada, Cristobal Navarro and Nancy Hitschfeld {hferrada@inf.uach.cl, cnavarro@inf.uach.cl, nancy@dcc.uchile.cl}
 
 # Description
 This is a small library with a method to compute the hull. 
