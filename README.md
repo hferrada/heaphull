@@ -1,5 +1,5 @@
 # heaphull
-This code compute the convex hull in 2D
+This code computes the convex hull in 2D
 
 # Authors
 Hector Ferrada, Cristobal Navarro and Nancy Hitschfeld {hferrada@dcc.uchile.cl, cnavarro@inf.uach.cl, nancy@dcc.uchile.cl}
@@ -13,11 +13,12 @@ This library works only for 64 bits and supporting long sequences.
 
 # Parameters 
 For the testing code, the unique parameter is the value for n, the points in this method are generated randomly.
-For the method HeapCHull(), which compute the convex hull, the parameter are the number o points and the two float arrays X and Y with the points (see the file test.cpp).
+For the method HeapCHull(), which compute the convex hull, the parameter are the number o points and the two float arrays X and Y with the points (see the example in the file file test.cpp).
 
 # Input & Output
 Input: Two arrays of floating points X[0..n-1] and Y [0..n-1].
 Ouput: An array of nCH integer with the indexes of the nCH points which form the convex hull for the input.
+(see the example in the file file test.cpp).
 
 # Make
 To make the library just give the command 'make', this will create the lib: 'heapchull.a'.
