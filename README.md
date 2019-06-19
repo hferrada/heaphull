@@ -12,7 +12,8 @@ than the other methods. The reason behind this memory improvement is because the
 This library works only for 64 bits and supporting long sequences.
 
 # Parameters 
-Only the value for n, the points in this method are generated randomly
+For the testing code, the unique parameter is the value for n, the points in this method are generated randomly.
+For the method HeapCHull(), which compute the convex hull, the parameter are the number o points and the two float arrays X and Y with the points (see the file test.cpp).
 
 # Input & Output
 Input: Two arrays of floating points X[0..n-1] and Y [0..n-1].
