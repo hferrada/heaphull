@@ -24,7 +24,7 @@ HeapCHull::HeapCHull(ulong nPoins, float *xArr, float *yArr) {
 	Q2 = new uint[len];
 	Q3 = new uint[len];
 	Q4 = new uint[len];
-	sizeCHull = len*sizeof(uint);
+	sizeCHull = 4*len*sizeof(uint);
 
 	if (len > TWO32m1){
 		// we work with cells (of 32 + 8) bits in the queues, that is Qi[k] || _Qi[k]
@@ -32,7 +32,7 @@ HeapCHull::HeapCHull(ulong nPoins, float *xArr, float *yArr) {
 		_Q2 = new uchar[len];
 		_Q3 = new uchar[len];
 		_Q4 = new uchar[len];
-		sizeCHull += len*sizeof(uchar);
+		sizeCHull += 4*len*sizeof(uchar);
 		isQ40 = true;
 	}else
 		// we work with cells of 32 bits in the queues
